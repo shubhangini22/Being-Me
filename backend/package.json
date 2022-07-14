@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -14,7 +14,14 @@
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "module-not-found-error": "^1.0.1",
     "mongoose": "^6.4.4",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "posts": "^0.0.1",
+    "resolve": "^1.22.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4"
   }
 }
