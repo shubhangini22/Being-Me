@@ -6,6 +6,6 @@ export default (posts=[],action) =>{
             return [...posts,action.payload];
         default :
             return posts;
-
+       //array of posts
     }
 }
