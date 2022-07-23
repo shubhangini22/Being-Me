@@ -22,3 +22,4 @@ mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnified
   .catch((error) => console.log(`${error} did not connect`));
 
 //mongoose.set("useAndModify", false);
+//depracted
